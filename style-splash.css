@@ -1,0 +1,41 @@
+HTML			{height:100%; -webkit-text-size-adjust:none;}
+BODY			{font-family:sans-serif; font-size:90%; color:#000000;
+					background-color:#FFFFFF; height: 100%;}
+TABLE			{font-size: inherit; font-family: inherit;}
+
+
+H1, H2, H3, H4 	{font-family:Arial Narrow, sans-serif; font-weight:;}
+
+h1 a:link, h2 a:link, h3 a:link, h4 a:link {color:#005506; text-decoration: none;}
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited {color:#005506; text-decoration: none;}
+h1 a:active, h2 a:active, h3 a:active, h4 a:active {color:#005506; text-decoration: none;}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {color:#005506; text-decoration: none;}
+
+A:LINK			{color:#b36100; text-decoration: none;}
+A:VISITED 		{color:#b36100; text-decoration: none;}
+A:ACTIVE		{color:#b36100; text-decoration: none;}
+A:HOVER			{text-decoration: none;}
+
+IMG				{border-style: none;}
+
+.clear {
+	clear: both;
+}
+
+.subheader {
+    font-size: 24pt;
+	text-align: left;
+}
+
+.social {
+	margin: 10px 15px -10px;
+	width: 32px;
+	height: 32px;
+}
+.para {
+//	width:300px;
+//	text-align:left;
+//	display:inline;
+//	margin:10px 0;
+	font-size:90%;
+}
