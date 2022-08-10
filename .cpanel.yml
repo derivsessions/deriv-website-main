@@ -1,0 +1,5 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home2/sorenwag/public_html/domains/derivsessions
+        - /bin cp * $DEPLOYPATH
