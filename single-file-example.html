@@ -1,39 +1,328 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Hello World</title>
-    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+	<head>
+		<link rel="icon" href="img/deriv-small.jpg">
 
-    <!-- Don't use this in production: -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="text/babel">
-    
-      function MyApp() {
-        return <h1>Hello, world!</h1>;
-      }
+		<style>
+		
+		
+			HTML { height:100%; -webkit-text-size-adjust:none; }
+			BODY { font-family:sans-serif; font-size:90%; color:#000000; background-color:#FFFFFF; height:100%; }
+			TABLE { font-size:inherit; font-family:inherit; }
+			
+			H1, H2, H3, H4 { font-family:Arial Narrow, sans-serif; font-weight:; }
 
-      const container = document.getElementById('root');
-      const root = ReactDOM.createRoot(container);
-      root.render(<MyApp />);
+			h1 a:link, h2 a:link, h3 a:link, h4 a:link { color:#005506; text-decoration:none; }
+			h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited { color:#005506; text-decoration:none; }
+			h1 a:active, h2 a:active, h3 a:active, h4 a:active { color:#005506; text-decoration:none; }
+			h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover { color:#005506; text-decoration:none; }
 
-    </script>
-    <!--
-      Note: this page is a great way to try React but it's not suitable for production.
-      It slowly compiles JSX with Babel in the browser and uses a large development build of React.
+			A:LINK { color:#b36100; text-decoration:none; }
+			A:VISITED { color:#b36100; text-decoration:none; }
+			A:ACTIVE { color:#b36100; text-decoration:none; }
+			A:HOVER { text-decoration:none; }
 
-      Read this section for a production-ready setup with JSX:
-      https://reactjs.org/docs/add-react-to-a-website.html#add-jsx-to-a-project
+			IMG { border-style:none; }
 
-      In a larger project, you can use an integrated toolchain that includes JSX instead:
-      https://reactjs.org/docs/create-a-new-react-app.html
+			.clear { clear:both; }
 
-      You can also use React without JSX, in which case you can remove Babel:
-      https://reactjs.org/docs/react-without-jsx.html
-    -->
-  </body>
+			.subheader { font-size:24pt; text-align:left; }
+
+			.social { margin:10px 5px -10px; width:32px; height:32px; }
+/*			.para { width:300px; text-align:left; display:inline; margin:10px 0; font-size:90%; } */
+
+			#container { margin:15px auto 25px; width:600px; border:0px solid; }
+
+				#header { margin:0px 0 0 0; text-align:center; }
+
+					#titles { float:left; background-color:#dfdfdf; width:500px; padding:1px 2px 7px; text-align:center; }
+
+						#titles h1 { font-size:62px; margin:0px auto -25px; /*text-align:center;*/ }
+						
+						#titles div { margin:25px auto 15px; border:1.5px solid; width:470px; }
+
+						#titles h2 { font-size:30px; margin:-10px 0 0; font-weight:normal; /*text-align:left;*/ }
+						
+						#socmed { margin:-15px 0 0 0px; }
+
+					#dicon { float:left; width:60px; height: 100px; background-color:#dfdfdf; margin:0 0 0 15px; padding:10px 10px 11px; }
+				
+
+
+/*
+
+	music note &#9833;
+	lightning bolt &#x3df;
+
+	&#129345; Drum<br>
+	&#128031; Bass<br>
+	&#127928; Guitar<br>
+	&#127929; Keys<br>
+	&#127927; Sax<br>
+
+*/
+
+		</style>
+
+		<title>Derivative Sessions - improv music, philly musicians</title>
+
+	</head>
+
+	<body>
+
+	<div id="container">
+
+		<div id="header">
+
+			<div id="titles">
+
+				<h1>Derivative Sessions</h1>
+				<div></div>		
+				<h2>improv music &bull; rotating lineup &bull; philadelphia</h2>
+
+
+			</div> <!-- titles -->
+			
+			<img src="img/deriv-icon.png" id="dicon">
+
+			<div class="clear"></div>
+
+		</div>
+
+
+		<!--<div class="clear" style="margin:30px auto;border-width:0.5px;border-style:solid;width:650px;"></div>-->
+
+
+		<!--<div style="float:right;margin:-20px 15px 0 0;background-color:#000;width:1.5px;height:98px;border-style:solid;border-width:1px"></div>-->
+
+
+		<div style="width:600px; margin:0 auto 0 0; text-align:center;">
+
+				<div style="text-align:center; margin: 25px auto 15px;">	
+					<video width="600" controls autoplay muted loop>
+						<source src="ad-april-sm.mp4" type="video/mp4">
+						Your browser does not support html5 video.
+					</video>	
+				</div>
+
+			<p style="font-size:25px; margin:20px auto 10px;">original music, derived from existing influences</p>	
+			<p style="font-size:20px; margin:15px 0;">curated improv sessions with assorted instrumentalists</p>
+	
+		</div>				
+
+
+
+
+
+		<div style="clear:both;"></div>
+
+
+
+
+			<div style="margin:10px auto; text-align:center;">
+		
+				<div id="socmed">
+					<span style="font-weight:bold;">
+						<A href="mailto:music@derivsessions.net">
+							music@derivsessions.net
+						</a>
+						&nbsp;&nbsp;&nbsp;|&nbsp;
+					</span>
+					<a href="https://www.instagram.com/derivsessions/" target="_blank"><img src="img/icons/s-instagram.png" class="social" alt="Instagram"></a>
+					<a href="https://derivsessions.bandcamp.com/" target="_blank"><img src="img/icons/s-bandcamp.png" class="social" alt="Bandcamp" style="margin:10px 10px -10px;"></a>
+					<a href="https://www.youtube.com/derivativesessions" target="_blank"><img src="img/icons/s-youtube.png" class="social" alt="YouTube"></a>
+					<a href="https://soundcloud.com/derivsessions" target="_blank"><img src="img/icons/s-soundcloud.png" class="social" alt="SoundCloud"></a>
+					<!--<a href="https://reddit.com/r/derivativesessions" target="_blank"><img src="img/icons/s-reddit.png" class="social" alt="reddit" style="margin:0px 16px -5px;height:18px;width:18px;"></a>-->
+					<a href="https://medium.com/@derivsessions" target="_blank" style="display:none;"><img src="img/icons/s-medium.png" class="social" alt="Medium"></a>
+					<a href="https://www.facebook.com/derivsessions" target="_blank"><img src="img/icons/s-facebook.png" class="social" alt="Facebook"></a>
+					<a href="https://twitter.com/derivsessions" target="_blank"><img src="img/icons/s-twitter.png" class="social" alt="Twitter"></a>
+					<!--<span style="font-weight:bold;">
+						&nbsp;|&nbsp;&nbsp;&nbsp;
+						<A href="mailto:music@derivsessions.net">
+							music@derivsessions.net
+						</a>
+					</span>-->
+				</div> <!-- socmed -->
+
+			</div>
+
+
+
+
+
+		
+<!--
+		<p>Derivative Sessions is an improvisational music project, which produces live recorded performances, assembling uniquely curated ensembles of creative & skilled musicians. The core concept is based on the idea that all new ideas are based on combinations (or derivatives) of existing influences. Its purpose is to be an endless resource of original styles that musicians everywhere can draw from.</p>
+
+		<p>The project can be thought of as a hybrid of an artist and a label, but on paper it's an artist, as well as a business. It acts as a label in that its only consistent line-up are its core producers, who bring in individual musicians and bands to create releases. D/S is primarily an artist because the creative approach is conceptually consistent in a number of ways, as is the recording and post-production.</p>
+
+		<p>Because free improvisation is chaotic by nature, it's always the intention to offset that with some kind of structure and cohesion. What's created is close to the familiar format of a song, but still remains dynamic and retains all the spontaneity of pure improvisation. The aim is to have something meaningful to grab onto, but that can also change in endless ways, which is what keeps it engaging and exciting.</p>
+
+		<p>There are certain practices, which distinguish this project from others. One is the use of talkback mics, set up for each musician, which allows them to influence or guide the improv with chord changes, modulations, theme ideas, or any other kind of musical direction. Effects for all instruments are encouraged, as this is an element of music (an extension of timbre) that still has so much room for exploration in order to catch up with rhythm and melody. We run all of the drum microphones through our recording software and apply effects live, which play a role in the improv.</p>
+
+		<p>There's no strict adherence to any genre, but the tendency is to gravitate toward influences of prog rock, funk, jazz and electronic music, but incorporating other styles is always encouraged. The only genre we try and avoid is that which can be best described as "jam" music. We also try and steer clear of musical cliches, such as melodies and chord progressions that have been repeated ad infinitum throughout our culture. Our focus is to cultivate new ideas.</p>
+
+		<p>We have an equity based business model, centered primarily around the monetization of the audio and visual content that we produce. Each contributor of a given session, musician or otherwise, has a percentage stake in that session, the profits of which are paid out by D/S indefinitely. This aligns everyones incentive for the project to succeed, and makes it more likely that the people participating are those who are interested and have faith in the project. Ultimately, we want to continue this creative process indefinitely, to the benefit of everyone involved and lovers of music, at large.</p>
+-->
+
+
+
+
+<!--
+	<div style="font-size:110%;line-height:110%;">
+
+		<h2 style="font-size:24pt;margin:0 0 15px 0;">Upcoming dates . . .</h2>
+-->		
+
+
+<!--	<div style="margin: 35px 0;">
+
+			<div style="float:left;width:475px;">
+
+				<h3 style="margin:0 auto 1em;"><u>Apr 24, 2021 at 12pm &mdash; Glendinning Rock Garden, Philadelphia, PA</u></h3>
+
+				<p style="margin:1em;font-weight:bold; float:right;font-size:24px;"><a href="https://www.facebook.com/events/1581070028757769" target="_blank">RSVP <img src="img/icons/facebook-normal.png" style="width:25px;height:25px;margin:0px 0 -4px 0;"></a></p>
+
+				<h3>Derivative Sessions x The Cook Up (<a href="https://www.instagram.com/unowndc/" target="_blank">@unowndc</a>)</h3>
+
+				<p>&bull; 12pm Deriv soundcheck</p>
+				<p>&bull; 1pm Derivative Sessions - instrumental improv set</p>
+				<p>
+					&#129345; Chuck Ladson (<A href="https://www.instagram.com/chazzlee_chopz/" target="_blank">@chazzlee_chopz</a>)<br>
+					&#128031; Daniel Kaplowitz (<A href="https://www.instagram.com/danielkaplowitz/" target="_blank">@danielkaplowitz</a>)<br>
+					&#127928; Eoin Murphy (<A href="https://www.instagram.com/musicbymurph/" target="_blank">@musicbymurph</a>)<br>
+					&#127929; Kayla Childs (<A href="https://www.instagram.com/blackbuttaflyofficial/" target="_blank">@blackbuttaflyofficial</a>)
+				</p>
+				<p>&bull; 5pm "The Cook Up" - live beats made from instrumental set, by <a href="https://www.instagram.com/unowndc/" target="_blank">@unowndc</a></p>
+
+			</div>
+			
+			<div style="float:right;width:200px;margin:0 0 10px 15px;display:inline-block;text-align:center;">
+				<a href="https://www.facebook.com/events/1581070028757769" target="_blank"><img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-9/174614256_1841637812660967_345000620219116161_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=730e14&_nc_ohc=EpKpP83d_VQAX_9LKoy&_nc_ht=scontent-lga3-1.xx&oh=214ea819bf82437f5e5b63ec04ed07a6&oe=60A4EFD0" style="width:100%;"></a>			
+			</div>
+			
+		</div>
+
+		
+		<hr style="width:75%; margin: 1.5em auto; text-align:center;"> -->
+
+
+		
+		<!-- <div style="margin: 35px 0;">
+
+			<div style="float:left;width:475px;">
+
+				<h3 style="margin:0 auto 1em;"><u>Apr 25, 2021 at 12pm &mdash; The Laboratory, Cherry Hill, NJ</u>&nbsp;&nbsp;</h3>
+
+				<p style="margin:1em;font-weight:bold; float:right;font-size:24px;"><a href="https://www.facebook.com/events/438620313905320" target="_blank">RSVP <img src="img/icons/facebook-normal.png" style="width:25px;height:25px;margin:0px 0 -4px 0;"></a></p>
+
+				<p>&bull; 2pm Soundcheck</p>
+				<p>&bull; 3pm Deriv sets</p>
+				<p>
+					&#128031; Daniel Kaplowitz (<A href="https://www.instagram.com/danielkaplowitz/" target="_blank">@danielkaplowitz</a>)<br>
+					&#129345; ShadowChenery (<A href="https://www.instagram.com/shadowchenery/" target="_blank">@shadowchenery</a>)<br>
+					&#127927;  Mike LaBombard (<A href="https://www.instagram.com/mike.labombard/" target="_blank">@mike.labombard</a>)<br>
+					&#127928; Will Currier
+				</p>
+			</div>
+			<div style="float:right;width:200px;margin:0 0 10px 15px;display:inline-block;text-align:center;">
+
+				<a href="https://www.facebook.com/events/438620313905320" target="_blank"><img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-9/175121731_1098051890706099_5072824589037112620_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=730e14&_nc_ohc=72chEusZbDkAX81mzv5&_nc_ht=scontent-lga3-1.xx&oh=fbf73cc1b1f1d5eefa546f72f36f465a&oe=60A66FA0" style="width:100%;"></a>
+	
+	
+			
+			</div>
+
+		</div>
+		
+		<div class="clear"></div> -->
+			
+
+<!--		<div style="margin: 35px 0;">
+
+			<div style="float:left;width:475px;">
+
+				<h3 style="margin:0 auto 1em;"><u>May 23, 2021 at 11am &mdash; Parkside Tennis Courts, Philadelphia, PA</u>&nbsp;&nbsp;</h3>
+
+				<p style="margin:1em;font-weight:bold; float:right;font-size:24px;"><a href="https://www.facebook.com/events/2896779493944033" target="_blank">RSVP <img src="img/icons/facebook-normal.png" style="width:25px;height:25px;margin:0px 0 -4px 0;"></a></p>
+				
+				<p><b>"Derivative Sessions Tennis Hang" &#127934; &#129305;</b></p>
+
+				<p>&bull; 11am Soundcheck</p>
+				<p>&bull; 12-1pm Set 1</p>
+				<p>&bull; 1:30-2:30pm Set 2</p>
+				<p>&bull; 3-4pm Set 3</p>
+				<p>&bull; 4:30-6pm Champion set</p>
+				<p>
+					&#128031; Daniel Kaplowitz (<A href="https://www.instagram.com/danielkaplowitz/" target="_blank">@danielkaplowitz</a>)<br>
+					&#129345; ShadowChenery (<A href="https://www.instagram.com/shadowchenery/" target="_blank">@shadowchenery</a>)<br>
+					&#127927;  Mike LaBombard (<A href="https://www.instagram.com/mike.labombard/" target="_blank">@mike.labombard</a>)<br>
+					&#127928; Will Currier
+				</p>
+			</div>
+			<div style="float:right;width:200px;margin:0 0 10px 15px;display:inline-block;text-align:center;">
+
+				<a href="https://www.facebook.com/events/2896779493944033" target="_blank"><img src="img/flyers/21-05-23-flyer.jpg" style="width:100%;"></a>
+	
+	
+			
+			</div>
+
+		</div>
+		
+		<div class="clear"></div>
+
+	</div> <!-- events -->
+
+
+		<!--<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CNfPQAIrh6c/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="13" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CNfPQAIrh6c/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CNfPQAIrh6c/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Derivative Sessionsâš¡ (@derivativesessions)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>-->
+
+		<!--<iframe style="margin: 20px auto 15px; border: 0; width: 700px; height: 514px;" src="https://bandcamp.com/VideoEmbed?track=3447456548&bgcol=ffffff&linkcol=0687f5" mozallowfullscreen="1" webkitallowfullscreen="1" allowfullscreen="1" seamless></iframe>-->
+		
+
+
+	</div>
+	
+	<div class="clear">&nbsp;</div>
+
+
+
+	<div id="like_button_container"></div>
+
+
+
+
+
+
+	</div> <!-- container -->
+
+
+<!--<center>
+	
+	<div style="width:300px;">
+
+<hr>
+
+<div id="medium-widget"></div>
+    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@derivativesessions","postsPerLine":1,"limit":1,"picture":"small","fields":["description","publishAt"],"ratio":"square"}})</script>
+
+	</div>
+
+	</center>-->
+
+	<!--<script src="https://www.retainable.app/assets/retainable/rss-embed/retainable-rss-embed.js"></script>-->
+
+
+
+	
+
+ <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="like_button.js"></script>
+
+</body>
 </html>
